@@ -1,4 +1,4 @@
-# Hello World program in Python
+# Remove Column from Data File
 
   
 def remove_column(read_file,write_file,column_index):
