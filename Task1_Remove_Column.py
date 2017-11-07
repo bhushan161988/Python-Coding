@@ -24,6 +24,6 @@ def remove_column(read_file,write_file,column_index):
 
 read_file=input('Enter u.ietm file path location (with File Name): ')
 write_file=input('Enter output file path Location (with File Name): ')
-column_index=input('Enter Field Number to be removed: ')    
+column_index=input('Enter Field Number to be removed (field numbers start with 0): ')    
 
 remove_column(read_file,write_file,int(column_index))
