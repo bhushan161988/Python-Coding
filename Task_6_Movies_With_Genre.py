@@ -69,6 +69,8 @@ def sort_file(item_temp_file):
         str2=row[0]  + "|" + row[1] +  "\n"
         write_task2_ptr.write(str2)
     
+    
+    print("Output is stored in Task_6_Output File")
     write_task2_ptr.close()
      
 
@@ -86,7 +88,7 @@ create_genre_dictionary(Temp_OP_File)
 
 #Get the item file name and location from user
 item_file=input('Enter u.item file path location (with File Name): ')
-ITEM_Temp_OP_File= item_file + "_temp_op"
+ITEM_Temp_OP_File= item_file + "_Task_6_Output"
 
 
 #Get the movies and corresponding genre into  a separate file
